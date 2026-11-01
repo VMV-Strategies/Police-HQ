@@ -10,4 +10,6 @@ The repository contains **no uploaded legal text and no model weights**. The con
 | Court decisions | Not installed. | Federal court decisions fall under the same federal order. Check the terms for any others. |
 | Apple on-device model | Provided by iOS; the app ships no weights. | Not applicable. |
 
+**Web content publishing:** `tools/phq_ingest/web_publish.py` can put the package (all of the material above) in `web/content/` for the home-screen app. On a public GitHub Pages site that is publication, including the municipal by-laws whose redistribution rights are not established. Only the repository owner should decide to do it.
+
 The repository and the uploaded documents have not been published, and no repository has been written to. Publishing either requires your explicit authorization.

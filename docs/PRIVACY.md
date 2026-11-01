@@ -61,7 +61,7 @@ How the web version behaves on the network:
 
 - The site loads only its own files. A Content-Security-Policy limits connections to the site itself.
 - It has no analytics, no tracking, no fonts or scripts from other sites, and no AI.
-- When the phone is online, the browser may fetch the app's own files to check for an app update. No content, searches or records are sent.
+- When the phone is online, the app checks the site for a newer version of the app and of the content package (`content/latest.json`), and it downloads the package from the site when you install it. No searches, bookmarks or other records are sent.
 - The site host (for example GitHub Pages) can see that the app's files were downloaded, like any website.
 
 Settings has controls to erase local records and to remove installed content.
