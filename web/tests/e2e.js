@@ -34,7 +34,7 @@ const check = (name, ok, info = '') => { results.push([ok ? 'PASS' : 'FAIL', nam
   await page.waitForSelector('text=Content status');
   let t0 = Date.now();
   await page.setInputFiles('input[type=file]', PKG);
-  await page.waitForSelector('text=2026.11.01-dev', { timeout: 300000 });
+  await page.waitForSelector('text=(signature valid)', { timeout: 300000 });
   check('package imports', true, `${((Date.now() - t0) / 1000).toFixed(1)} s`);
   await shot('02-settings-installed');
   const st = await text();
